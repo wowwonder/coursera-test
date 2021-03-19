@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  margin-bottom: 35px;
 }
 
 body {
@@ -111,7 +112,7 @@ h1 {
 
 #d3 {
 	width: 95%;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 
   .col-md-1 {
@@ -155,7 +156,8 @@ h1 {
 @media (max-width: 768px) {
 
 	#d1, #d2, #d3 {
-		height: 270px;
+		height: 300px;
+		margin-bottom: 25px;
 	}
 	
 }
