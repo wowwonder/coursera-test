@@ -158,6 +158,7 @@ h1 {
 	#d1, #d2, #d3 {
 		height: 300px;
 		margin-bottom: 25px;
+		overflow: auto;
 	}
 	
 }
