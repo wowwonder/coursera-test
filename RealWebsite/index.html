@@ -17,6 +17,11 @@
 <body>
   <header>
     <nav id="header-nav" class="navbar navbar-default">
+
+<button  class="navbar-toggler navbar-dark d-lg-none d-xl-none d-xl-block " type="button" data-bs-toggle="collapse" data-bs-target="#collapsable-nav1" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      
       <div class="container">
 
          <div class="navbar-header">
@@ -31,24 +36,54 @@
               <span>Kosher Certified</span>
             </p>
           </div>
-
-          <div class="collapse" id="navbarToggleExternalContent">
-  <div class="bg-dark p-4">
-    <h5 class="text-white h4">Collapsed content</h5>
-    <span class="text-muted">Toggleable via the navbar brand.</span>
-  </div>
-</div>
  </div>
   </div>
-    <button  class="navbar-toggler navbar-dark d-lg-none d-xl-none d-xl-block " type="button" data-targer="#collapsable-nav" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
+   
+
+    <div id="collapsable-nav" class="navbar-collapse collapse show  d-none d-sm-none d-md-none d-lg-block ">
+           <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a href="menu-categories.html" class="nav-link active">
+                <i class="fas fa-utensils"></i><br class="hidden-xs"> Menu</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link active">
+                <i class="fas fa-info-circle"></i><br class="hidden-xs"> About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link active">
+                <i class="fas fa-star"></i></span><br class="hidden-xs"> Awards</a>
+            </li>
+            <li class="nav-item hidden-xs" id="phone">
+              <a href="tel:410-602-5008">
+                <span>410-602-5008</span></a><div>* We Deliver</div>
+            </li>
+          </ul>
+        </div>  
 
 
-       
+        <div id="collapsable-nav1" class="navbar-collapse collapse d-lg-none d-xl-none d-xl-block ">
+           <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a href="menu-categories.html" class="nav-link active">
+                <i class="fas fa-utensils"></i><br class="hidden-xs"> Menu</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link active">
+                <i class="fas fa-info-circle"></i><br class="hidden-xs"> About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link active">
+                <i class="fas fa-star"></i></span><br class="hidden-xs"> Awards</a>
+            </li>
+            <li class="nav-item hidden-xs" id="phone">
+              <a href="tel:410-602-5008">
+                <span>410-602-5008</span></a><div>* We Deliver</div>
+            </li>
+          </ul>
+        </div>  
 
-    
+
     </nav>
 
 
@@ -56,6 +91,7 @@
 
 
 
+<script src="https://kit.fontawesome.com/099eda97fe.js" crossorigin="anonymous"></script>
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
