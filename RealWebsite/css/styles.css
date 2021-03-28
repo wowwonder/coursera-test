@@ -214,7 +214,7 @@ button.navbar-toggler, span.navbar-toggler-icon {
     height: 80px;
   }
   .navbar-brand h1 { /* Restaurant name */
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+    font-size: 4vw; /* 1vw = 1% of viewport width */
   }
   .navbar-brand p { /* Kosher cert */
     font-size: .6em;
